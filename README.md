@@ -8,7 +8,7 @@ The pdf "ECE143_FinalPresentation_Group2" is our final presentation slides.
 
 The Jupyter notebook "ECE143_FinalSubmission_Group2.ipynb" is a Jupyter notebook that contains all of the code to create our graphics.
 
-Their are 3 .py files in this repository:
+Their are 4 .py files in this repository:
 
 * HardwareVersusSoftware.py
 * Salary.py
@@ -24,6 +24,7 @@ All of these .py files need to be downloaded and stored in the same location as 
 * numpy 
 * pandas
 * matplotlib
+* Basemap
 * wordcloud
 
 ### Getting Our Code Setup to Run on Your Machine
