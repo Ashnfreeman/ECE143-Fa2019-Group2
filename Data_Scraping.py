@@ -5,13 +5,13 @@ import pandas as pd
 from parsel import Selector
 from time import sleep
 
-start_url = 'https://www.glassdoor.com/Reviews/Facebook-Reviews-E40772.htm'
-#start_url = 'https://www.glassdoor.com/Reviews/Apple-Reviews-E1138.htm'
-#start_url='https://www.glassdoor.com/Reviews/Microsoft-Reviews-E1651.htm'
+start_url = 'https://www.glassdoor.com/Reviews/Amazon-Reviews-E6036.htm'
+thePath="/Users/ashleyfreeman/Desktop/"
+company = 'fb'
+
 
 base_url = start_url[:-4]
 extension = start_url[-4:]
-company = 'fb'
 
 # Define the headers here
 headers = {
@@ -152,4 +152,5 @@ while len(processed_reviews)<=5000:
 
 df = pd.DataFrame(processed_reviews,columns = columns)
 filename = company + '.csv'
-path = "/Users/ashleyfreeman/Desktop/" + filenamedf.to_csv(path)
+path = thePath + filename
+df.to_csv(path)
