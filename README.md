@@ -14,6 +14,7 @@ Their are 4 .py files in this repository:
 * Salary.py
 * wordclouds.py
 * location_visualization.py
+* Data_Scraping.py
 
 All of these .py files need to be downloaded and stored in the same location as the Jupyter notebook in order for the Jupyter notebook to run.
 
@@ -38,4 +39,5 @@ In the Jupyter notebook, change the path to the folder by changing the value of 
 * **Salary.py:** When run, this code compares average salaries across different states.
 * **wordclouds.py:** When run, this code produces word clouds of "good" and "bad" reviews at 8 different companies.
 * **location_visualization.py:** When run, this code produces the map figures analyzing the job distribution across different locations.
+* **Data_Scraping.py:** When run, this code scrapes a dataset from Glassdoor for a certain company. In order to run this code, you must first change the URL variable (start_url) to the link that you would like (navigate to the Glassdoor page for the company that you're interested in, click on the "Reviews" tab, and use that webpage's link). In order to save your .csv file to the preferred place on your computer, change the variable "thePath" to your preferred file path. Lastly, change the variable "company" to the name of the company, or whatever you want your .csv file to be named.
  
